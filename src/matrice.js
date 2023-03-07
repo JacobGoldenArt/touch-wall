@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import './routesMakerStyle.css';
 
 const RoutesMaker = () => {
   const [Route, setRoute] = useState([
@@ -87,10 +88,10 @@ const RoutesMaker = () => {
   };
 
   return (
-    <div className="App-header">
+    <div className="app-wrap">
       <div className="matrice">
         {Route.map((row, i) => (
-          <div key={i} className="row" style={{ backgroundColor: colors[i] }}>
+          <div key={i} className={`row ${rowLetters[i]}`}>
             <span className="rowLetter">{rowLetters[i]}</span>
             <div className="rowCells">
               {row.map((cell, j) => (
@@ -135,6 +136,7 @@ const RoutesMaker = () => {
           </div>
         ))}
       </div>
+     
     </div>
   );
 };  
