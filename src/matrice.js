@@ -17,18 +17,19 @@ const RoutesMaker = () => {
   const [Routes, setRoutes] = useState([]);
   const [selectedRoute, setSelectedRoute] = useState(null);
 
-  const colors = [
-    '#FFC300',
-    '#FF5733',
-    '#C70039',
-    '#900C3F',
-    '#581845',
-    '#00FFFF',
-    '#7FFFD4',
-    '#DC143C',
-    '#00FF7F',
-    '#FF1493',
-  ];
+//   const colors = [
+//     '#FFC300',
+//     '#FF5733',
+//     '#C70039',
+//     '#900C3F',
+//     '#581845',
+//     '#00FFFF',
+//     '#7FFFD4',
+//     '#DC143C',
+//     '#00FF7F',
+//     '#FF1493',
+//   ];
+  
   const rowLetters = ['I', 'H', 'G', 'F', 'E', 'D', 'C', 'B', 'A'];
   const rowLengths = [7, 5, 8, 7, 9, 8, 9, 8, 6];
 
