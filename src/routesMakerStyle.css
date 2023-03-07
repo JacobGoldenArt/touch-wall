@@ -39,7 +39,7 @@
     height: 69vh;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    padding-top: 0;
+    padding-top: 1px;
     position: relative;
 }
   
